@@ -49,6 +49,8 @@ FPLSR Model Structure:
 ### **PART3: Model Evaluation**
 
 The evaluation metrics are MAE, MSE, RMSE, R-squared, and MAPE.
+We found that Directly using LSTM model to predict the Nasdaq Index closing prices is better than using NOP and FPLSR model.
+However NOP model is the worst model among the three models. The reason is that maybe the hidden layer is too strong, so the model is overfitting the non-linear relationship between the features and the target. Or the LSTM encoder is not able to capture the non-linear relationship between the features and the target.
 
 
 

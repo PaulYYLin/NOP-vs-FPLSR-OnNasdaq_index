@@ -35,15 +35,7 @@ By referring to the paper
 In deep learning models structure, we apply huber loss function instead of mean squared error loss function to reduce the influence of outliers and also avoid the model over trained to become average as the result is too smooth.
 
 NOP Model Structure:
-
-
-
-LSTM Model Structure:
-
-
-
-FPLSR Model Structure:
-
+<img width="669" alt="image" src="https://github.com/user-attachments/assets/be5ec90f-17f4-4a81-a887-04eec2cd8cb1" />
 
 
 ### **PART3: Model Evaluation**
@@ -51,7 +43,9 @@ FPLSR Model Structure:
 The evaluation metrics are MAE, MSE, RMSE, R-squared, and MAPE.
 We found that Directly using LSTM model to predict the Nasdaq Index closing prices is better than using NOP and FPLSR model.
 However NOP model is the worst model among the three models. The reason is that maybe the hidden layer is too strong, so the model is overfitting the non-linear relationship between the features and the target. Or the LSTM encoder is not able to capture the non-linear relationship between the features and the target.
+![image](https://github.com/user-attachments/assets/9562e898-7f64-4e11-b8a2-8478e6feecea)
 
+![image](https://github.com/user-attachments/assets/cd7721f3-454f-4dfc-bc24-078cc5026f97)
 
 
 
